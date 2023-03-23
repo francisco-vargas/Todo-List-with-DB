@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 mongoose.set('strictQuery', false);
 
-mongoose.connect("mongodb://0.0.0.0:27017/todolistDB", {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://admin-Chisco:test123@cluster0.oa3tz.mongodb.net/todolistDB", {useNewUrlParser:true});
 
 
 // new items Schema
